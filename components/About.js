@@ -61,9 +61,7 @@ function About () {
             </div>
         </section>
     </Element>
-    </>
-    
-        
+    </>   
     )
 }
 export default About;

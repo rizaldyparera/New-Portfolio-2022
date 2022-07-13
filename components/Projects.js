@@ -48,7 +48,6 @@ function Projects () {
                     </article>
             </section>
         </Element>
-
     </>
     )
 }

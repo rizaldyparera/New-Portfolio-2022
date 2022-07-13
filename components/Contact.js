@@ -10,14 +10,14 @@ function Contact () {
                     <p className="text-base font-roboto mb-11 sm:mb-5 sm:text-base px-4">Let's talk about everything</p>
                 </div>
                     <div className="mx-auto w-11/12 lg:w-9/12">
-                            <form action="" className="container">
+                        <form  className="container">
                                 <div className="grid grid-cols-2 gap-2 mb-0">
-                                    <label htmlFor="name" className="">
+                                    <label htmlFor="name">
                                         <span className="font-semibold text-sm">Your Name</span>
                                         <input type="text" name="name" id="name" placeholder="MARS" className="w-full italic rounded-md placeholder-slate-400 focus:bg-white p-2 text-sm bg-gray-color focus:outline-none ring-1 ring-slate-300 
                                         focus:border-sky-500 focus:ring-1 focus:ring-sky-500" />
                                     </label>
-                                    <label htmlFor="email" className="">
+                                    <label htmlFor="email">
                                         <span className="font-semibold text-sm">Your Email</span>
                                         <input type="email" name="email" id="email" placeholder="example@gmail.com" className="w-full italic rounded-md placeholder-slate-400 focus:bg-white p-2 text-sm bg-gray-color focus:outline-none ring-1 ring-slate-300 
                                         focus:border-sky-500 focus:ring-1 focus:ring-sky-500 
@@ -39,7 +39,7 @@ function Contact () {
                                 <label htmlFor="submit" className="block">
                                     <button type="submit" className="px-5 py-2 bg-button-color hover:bg-button-hover-color duration-400 ease-in rounded-md text-light-mode text-xs">Send Your Message!</button>
                                 </label>
-                            </form>
+                        </form>
                     </div>
             </section>
         </Element>
