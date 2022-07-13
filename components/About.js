@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Skills from '../public/assets/skillslg.png';
 import { Element } from "react-scroll";
 
 function About () {
@@ -54,8 +56,8 @@ function About () {
                     </div>
                 </div>
             </div>
-            <div className="mt-8 h-36 sm:h-48 md:h-64 lg:h-80">
-                <img className="w-full" src="/assets/skillslg.png" alt="Skills" />
+            <div className="mt-8 h-36 sm:h-48 md:h-64 lg:h-80 w-full">
+                <Image src={ Skills } alt="Skills" />
             </div>
         </section>
     </Element>
