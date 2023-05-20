@@ -4,29 +4,35 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
-      colors: {
-        'light-mode': '#F6F5F5',
-        'dark-mode': '#00334E',
-        'primary-color': '#145374',
-        'secondary-color': '#EE6F57',
-        'button-color': '#FA5739',
-        'button-hover-color': '#D2624D',
-        'gray-color': '#F6F5F5',
-      },
       fontFamily: {
-        'inter' : ['Inter'],
-        'roboto' : ['Roboto'],
+        'inter' : 'Inter',
+        'roboto' : 'Roboto',
+      },
+      colors: {
+        'light-mode' : '#E7E7E9',
+        'dark-mode' : '#161618',
+        'primary-color' : '#3376BC',
+        'secondary-color' : '#91BBE5',
+        'third-color' : '#9A8873',
+        'hover-color' : '#2D6DB0',
       },
       container: {
         padding: {
-          'DEFAULT': '1rem',
+          'DEFAULT': '2rem',
           'sm': '2rem',
           'lg': '4rem',
           'xl': '5rem',
           '2xl': '6rem',
         },
+      },
+      screens: {
+        'sm': '530px',
+        'md': '801px',
+        'xl': '1280px',
+        
       },
     },
   },
